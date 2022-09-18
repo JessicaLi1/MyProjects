@@ -63,7 +63,6 @@ for game_rounds in range(num_rounds):
 
 
 
-
     #compare stats and output game result
     stat1=float(player_pokemon[stat_choice])
     stat2=float(opponent_pokemon[stat_choice])
