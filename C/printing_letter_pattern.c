@@ -79,26 +79,22 @@ void	ft_printing_main(int x, int y)
 	{
 		ft_putchar('A');
 		ft_putchar('\n');
-		return ;
 	}
 	else
 	{
 		if (x == 1)
 		{
 			ft_print_column_1(y);
-			return ;
 		}
 		if (y == 1)
 		{
 			ft_print_row_1(x);
-			return ;
 		}
 		else
 		{
 			ft_print_row_1(x);
-			ft_print_body(x,y);
+			ft_print_body(x, y);
 			ft_print_row_reverse(x);
-			return ;
 		}
 	}
 }
